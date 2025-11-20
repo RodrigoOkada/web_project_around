@@ -1,0 +1,27 @@
+.footer {
+  margin-top: 67px;
+  margin-bottom: 60px;
+  font-size: 18px;
+}
+
+.footer__copyright {
+  color: #545454;
+  margin: 0;
+}
+
+@media (max-width: 860px) {
+  .footer__copyright {
+    margin-left: 27px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer {
+    margin: 50px auto 36px;
+    font-size: 14px;
+  }
+
+  .footer__copyright {
+    margin-left: 19px;
+  }
+}

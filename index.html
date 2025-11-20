@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="EUA Afora" />
+    <meta name="keywords" content="photos, social media" />
+    <meta name="author" content="Rodrigo Okada" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Around</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <img src="./images/logo.png" class="header__logo" alt="logo" />
+      <hr class="header__line" />
+    </header>
+
+    <main class="content">
+      <section class="profile">
+        <img
+          src="./images/profile-image.jpg"
+          class="profile__image"
+          alt="avatar"
+        />
+        <div class="profile__info">
+          <h1 class="profile__info-name">Jacques Cousteau</h1>
+          <button class="button__edit">
+            <img
+              class="button__edit-image"
+              src="./images/edit-image.png"
+              alt="edit image"
+            />
+          </button>
+          <p class="profile__info-description">Explorador</p>
+        </div>
+        <button class="button__add">
+          <img
+            class="button__add-image"
+            src="./images/add-image.png"
+            alt="add image"
+          />
+        </button>
+      </section>
+
+      <section class="cards">
+        <ul class="cards__list">
+          <li class="card">
+            <img
+              src="./images/card__image.png.jpg"
+              class="card__image"
+              alt="coniferous landscape"
+            />
+            <div class="card__footer">
+              <p class="card__title">Vale de Yosemite</p>
+              <button class="card__button-like">
+                <img src="./images/Like.png" />
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/card__image-lake.png.jpg"
+              class="card__image"
+              alt="blue lake"
+            />
+            <div class="card__footer">
+              <p class="card__title">Lago Louise</p>
+              <button class="card__button-like">
+                <img src="./images/Like.png" />
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/card__image-smoky.png.jpg"
+              class="card__image"
+              alt="sunset"
+            />
+            <div class="card__footer">
+              <p class="card__title">Montanhas Carecas</p>
+              <button class="card__button-like">
+                <img src="./images/Like.png" />
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/card__image-latemar.png.jpg"
+              class="card__image"
+              alt="starry mountain"
+            />
+            <div class="card__footer">
+              <p class="card__title">Latemar</p>
+              <button class="card__button-like">
+                <img src="./images/Like.png" />
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/card__image-vanoise.png.jpg"
+              class="card__image"
+              alt="Alps"
+            />
+            <div class="card__footer">
+              <p class="card__title">Parque Nacional do Itatiaia</p>
+              <button class="card__button-like">
+                <img src="./images/Like.png" />
+              </button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              src="./images/card__image-lago.png.jpg"
+              class="card__image"
+              alt="snowy lake"
+            />
+            <div class="card__footer">
+              <p class="card__title">Lago di Braies</p>
+              <button class="card__button-like">
+                <img src="./images/Like.png" />
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2025 Around The U.S.</p>
+    </footer>
+    <div class="popup">
+      <div class="popup__content">
+        <button class="popup__button-close">
+          <img
+            class="button__close-image"
+            src="./images/Close.png"
+            alt="close button"
+          />
+        </button>
+        <h3 class="popup__title">Editar Perfil</h3>
+        <form class="popup__form form">
+          <label class="popup__form-label"
+            ><input
+              class="popup__form-input popup__form-input-name"
+              placeholder="Seu nome"
+          /></label>
+          <label class="popup__form-label"
+            ><input
+              class="popup__form-input popup__form-input-profession"
+              placeholder="Sua profissão"
+          /></label>
+          <button type="submit" class="popup__form-button">Salvar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>

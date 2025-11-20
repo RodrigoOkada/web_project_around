@@ -1,0 +1,36 @@
+.header {
+  margin-top: 45px;
+}
+
+.header__logo {
+  width: 173px;
+  height: 33px;
+}
+
+.header__line {
+  margin-top: 41px;
+  margin-bottom: 0;
+  border: 1px solid rgba(84, 84, 84, 0.6);
+}
+
+@media (max-width: 860px) {
+  .header__logo {
+    padding: 0 27px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header {
+    margin-top: 28px;
+  }
+
+  .header__logo {
+    padding: 0 27px;
+    width: 126px;
+    height: 24px;
+  }
+
+  .header__line {
+    margin-top: 32px;
+  }
+}
