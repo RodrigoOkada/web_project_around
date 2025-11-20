@@ -13,3 +13,5 @@ Este projeto é um mockup de uma interface de uma rede/galeria de fotos, focada 
 - JavaScript (Vanilla JS): Implementação da lógica de interatividade, especificamente para a manipulação do modal de edição de perfil.
 
 ## Link para o GitHub Pages
+
+[Link para o GitHub Pages](https://rodrigookada.github.io/web_project_around/)
