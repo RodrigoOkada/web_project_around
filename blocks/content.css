@@ -30,7 +30,7 @@
   font-weight: 500;
 }
 
-.button__edit {
+.profile__info-edit {
   width: 24px;
   height: 24px;
   background-color: black;
@@ -41,12 +41,12 @@
   justify-content: center;
 }
 
-.button__edit:hover {
+.profile__info-edit:hover {
   opacity: 60%;
   cursor: pointer;
 }
 
-.button__edit-image {
+.profile__info-edit-image {
   width: 10px;
   height: 10px;
   padding: 7px;
@@ -60,7 +60,7 @@
   line-height: 100%;
 }
 
-.button__add {
+.profile__info-add {
   background-color: black;
   width: 150px;
   height: 50px;
@@ -69,12 +69,12 @@
   border: 2px solid #ffffff;
 }
 
-.button__add:hover {
+.profile__info-add:hover {
   opacity: 60%;
   cursor: pointer;
 }
 
-.button__add-image {
+.profile__info-add-image {
   height: 22px;
   width: 22px;
 }
@@ -94,7 +94,7 @@
     font-size: 36px;
   }
 
-  .button__add {
+  .profile__info-add {
     margin-left: 100px;
   }
 }
@@ -119,13 +119,13 @@
     line-height: 100%;
   }
 
-  .button__edit {
+  .profile__info-edit {
     margin-left: 4px;
     width: 18px;
     height: 18px;
   }
 
-  .button__edit-image {
+  .profile__info-edit-image {
     width: 7.5px;
     height: 7.5px;
   }
@@ -135,7 +135,7 @@
     margin-top: 14px;
   }
 
-  .button__add {
+  .profile__info-add {
     width: 282px;
     height: 50px;
     margin: 0;

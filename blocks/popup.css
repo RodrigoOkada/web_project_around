@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 
-.button__close-image {
+.popup__button-close-image {
   width: 40px;
   height: 40px;
 }
